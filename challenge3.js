@@ -9,8 +9,6 @@ dm.initialize();
  * for every connected device that it finds. */
 dm.setConnectCallback(registerDevice);
 
-var led; // Variable to store the LED device
-
 /* This is the function that is called 
  * for every connected device */
 function registerDevice(device) {
