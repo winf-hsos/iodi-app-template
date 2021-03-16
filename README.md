@@ -8,7 +8,7 @@ In this course, we use Glitch as our coding environment Glitch allows us to crea
 
 **Step 1**: Copy the following URL: `https://github.com/winf-hsos/iodi-app-template.git`
 
-**Step 2**: Sign in to Glitch and create a new project from GitHub: `npm install`
+**Step 2**: Sign in to Glitch and create a new project from GitHub.
 
 **Step 3**: In the pop-up window, paste the URL from step 1 and click OK.
 
