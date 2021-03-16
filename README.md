@@ -1,17 +1,15 @@
-# Coding Template for Impacts of Digitalization
+# Impacts of Digitalization - App Template
 
 This is a coding template for the course "Impacts of Digitalization" at the University of Applied Sciences in Osnabrück. It helps to get started with simple programming tasks involving the Tinkerforge building blocks.
 
-The template contains the necessary dependencies and 3 template files. Each for every challenge in the [exercise](https://docs.google.com/document/d/17BBJRldzIrdq5jnDmUSDkimjx9JojQvF-uQrGkkoLv8/preview):
-
-- `challenge1.js`
-- `challenge2.js`
-- `challenge3.js`
-
 # Get started
 
-**Step 1**: Clone this repository: `git clone https://github.com/winf-hsos/iodi-coding.git`
+In this course, we use Glitch as our coding environment Glitch allows us to create a new project from a GitHub repository.
 
-**Step 2**: Install dependencies: `npm install`
+**Step 1**: Copy the following URL: `https://github.com/winf-hsos/iodi-app-template.git`
 
-**Step 3**: Connect your Tinkerforge Master Brick and get coding!
+**Step 2**: Sign in to Glitch and create a new project from GitHub: `npm install`
+
+**Step 3**: In the pop-up window, paste the URL from step 1 and click OK.
+
+Glitch will import the app template into a new project. You now have a copy of the app template that you can change as needed.
