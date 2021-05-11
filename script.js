@@ -1,4 +1,4 @@
-/* global log, getInput */
+/* global writeLog, getInput */
 writeLog("Welcome to the app template!");
 
 function printText() {
