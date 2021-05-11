@@ -11,7 +11,7 @@
         content="Code examples for the module Impacts of Digitalization at the University of Applied Sciences in Osnabrück.">
 
     <!-- Include the common stylesheet -->
-    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="/common.css" />
 
     <!-- import the bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,8 +22,22 @@
     <div class="container">
         <div class="row mt-4">
             <div class="col-10 mx-auto">
-                <h1 class="mb-4">Web App Template</h1>
+                <h1 class="mb-4">App Template - Teachable Machine</h1>
                 <h2 class="mb-4"></h2>
+
+                <div class="row">
+                    <div class="col">
+                        <!-- A placeholder for the video camera -->
+                        <div id="video"></div>
+                    </div>
+                    <div class="col">
+                        <!-- A placeholder for the label -->
+                        <p id="label"></p>
+                        <p style="font-size: 6em;" id="labelSymbol"></p>
+                    </div>
+                </div>
+
+                <hr />
 
                 <!-- This is a paragraph -->
                 <p>
@@ -39,21 +53,16 @@
                     Clear
                 </button>
 
-                <p>The button below prints the content of the input field to the console above. The input field
-                    has the
-                    <code>id = "myInput"</code>, so that we can access the value from JavaScript using
-                    <code>getInput("myInput")</code>
-                </p>
 
-                <!-- This is a single line input field to enter text -->
-                <input type="text" class="form-control mb-4" id="myInput" />
-
-                <!-- This button triggers a function that prints the text to the console -->
-                <button class="btn btn-secondary mt-2" onclick="printText()">Print Text to Console</button>
-                
             </div>
         </div>
     </div>
+
+    <!-- Import p5.js for easy handling of drawing on a canvas -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+
+    <!-- Import ml5.js for machine learning with JavaScript -->
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
 
     <!-- Import moment.js for date handling (required by Tinkerforge Device Manager)-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
